@@ -1,0 +1,25 @@
+{
+    "name": "barcha17/myapp-module-test",
+    "description": "A module for myapp",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Barcha17\\Module\\ModuleTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David-Baron",
+            "email": "davidbaron@mycodingsoft.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/dependency-injection": "^6.1",
+        "symfony/config": "^6.1",
+        "symfony/http-kernel": "^6.1",
+        "symfony/yaml": "^6.1"
+    },
+    "require": {
+        "phpoffice/phpword": "dev-develop"
+    }
+}

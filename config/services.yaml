@@ -1,0 +1,14 @@
+# config/services.yaml
+parameters:
+    # nothing to declare
+services:
+    Barcha17\Module\ModuleTest\DocumentRepository:
+        arguments: ['']    
+    Barcha17\Module\ModuleTest\DocumentFormatter:
+        autowire: true    
+    app.document.db:
+        alias: Barcha17\Module\ModuleTest\DocumentRepository
+        public: true    
+    app.document.formatter:
+        alias: Barcha17\Module\ModuleTest\DocumentFormatter
+        public: true
